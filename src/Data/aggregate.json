@@ -1,0 +1,265 @@
+[
+    {
+        "Question": "How much Do you know about Climate Change",
+        "Answers": [
+            {
+                "Answer": "Never Heard",
+                "Weight": 0.5
+            },
+            {
+                "Answer": "I know a little",
+                "Weight": 1.5
+            },
+            {
+                "Answer": "I know a moderate amount",
+                "Weight": 2.5
+            },
+            {
+                "Answer": "I know a lot",
+                "Weight": 5
+            }
+        ]
+    },
+    {
+        "Question": "Are you worried about Climate Change",
+        "Answers": [
+            {
+                "Answer": "Very Worried",
+                "Weight": 5
+            },
+            {
+                "Answer": "Somewhat Worried",
+                "Weight": 4
+            },
+            {
+                "Answer": "Not very Worried",
+                "Weight": 1
+            },
+            {
+                "Answer": "Not at al worried",
+                "Weight": 0.5
+            }
+        ]
+    },
+    {
+        "Question": "Do you think Climate Change will harm you personally",
+        "Answers": [
+            {
+                "Answer": "A great deal",
+                "Weight": 5
+            },
+            {
+                "Answer": "A moderate amount",
+                "Weight": 4.5
+            },
+            {
+                "Answer": "Only a little",
+                "Weight": 2
+            },
+            {
+                "Answer": "Not at all",
+                "Weight": 0.75
+            },
+        {
+                "Answer": "Don’t know",
+                "Weight": 0.25
+            }
+        ]
+    },
+    {
+        "Question": "Do you think Climate Change will harm future Generations",
+        "Answers": [
+            {
+                "Answer": "A great deal",
+                "Weight": 5
+            },
+            {
+                "Answer": "A moderate amount",
+                "Weight": 4.5
+            },
+            {
+                "Answer": "Only a little",
+                "Weight": 2
+            },
+            {
+                "Answer": "Not at all",
+                "Weight": 0.75
+            },
+            {
+                "Answer": "Don’t know",
+                "Weight": 0.25
+            }
+        ]
+    },
+    {
+        "Question": "Do you think Climate change will be a major threat in 20 Years",
+        "Answers": [
+            {
+                "Answer": "Very serious threat",
+                "Weight": 5
+            },
+            {
+                "Answer": "Somewhat serious threat",
+                "Weight": 4
+            },
+            {
+                "Answer": "Not a threat at all",
+                "Weight": 0.5
+            },
+            {
+                "Answer": "Don't know",
+                "Weight": 0.25
+            }
+        ]
+    },
+    {
+        "Question": "How Important is the Issue of Climate change to you",
+        "Answers": [
+            {
+                "Answer": "Extremely important",
+                "Weight": 5
+            },
+            {
+                "Answer": "Very important",
+                "Weight": 4.5
+            },
+            {
+                "Answer": "Somewhat important",
+                "Weight": 3.75
+            },
+            {
+                "Answer": "Not too important",
+                "Weight": 1
+            },
+            {
+                "Answer": "Not at all important",
+                "Weight": 0.5
+            }
+        ]
+    },
+    {
+        "Question": "How will Climate Change impact Economy",
+        "Answers": [
+            {
+                "Answer": "Improve economic growth and provide new jobs",
+                "Weight": 5
+            },
+            {
+                "Answer": "Reduce economic growth and cost jobs",
+                "Weight": 0.5
+            },
+            {
+                "Answer": "Have no effect on economic growth or jobs",
+                "Weight": 2
+            }
+        ]
+    },
+    {
+        "Question": " Do you think renewable energy should be expanded ",
+        "Answers": [
+            {
+                "Answer": "Much more",
+                "Weight": 5
+            },
+            {
+                "Answer": "Somewhat more",
+                "Weight": 4.5
+            },
+            {
+                "Answer": "Same amount as today",
+                "Weight": 2
+            },
+            {
+                "Answer": "Somewhat less",
+                "Weight": 1.5
+            },
+            {
+                "Answer": "Much less",
+                "Weight": 0.75
+            },
+            {
+                "Answer": "Don’t know",
+                "Weight": 0.25
+            }
+        ]
+    },
+    {
+        "Question": "How High on government priority do you expect climate change to be?",
+        "Answers": [
+            {
+                "Answer_1": "Very high",
+                "Weight_1": 5
+            },
+            {
+                "Answer_2": "High",
+                "Weight_2": 3.5
+            },
+            {
+                "Answer_3": "Medium",
+                "Weight_3": 2.5
+            },
+            {
+                "Answer_4": "Low",
+                "Weight_4": 0.5
+            }
+        ]
+    },
+    {
+        "Question": "How interested would you be in working for organisations that advocating action on climate change?",
+        "Answers": [
+            {
+                "Answer": "I am participating in an effort like this now",
+                "Weight": 5
+            },
+            {
+                "Answer": "I definitely would do it",
+                "Weight": 3.5
+            },
+            {
+                "Answer": "I probably would do it",
+                "Weight": 2.5
+            },
+            {
+                "Answer": "I probably would not do it",
+                "Weight": 0.25
+            },
+            {
+                "Answer": "I definitely would not do it",
+                "Weight": 0
+            },
+            {
+                "Answer": "Not sure",
+                "Weight": 0.5
+            }
+        ]
+    },
+    {
+        "Question": "How often do you encounter Climate change",
+        "Answers": [
+            {
+                "Answer": "Never",
+                "Weight": 0.25
+            },
+            {
+                "Answer": "Once a year or less often",
+                "Weight": 0.5
+            },
+            {
+                "Answer": "Several times a year",
+                "Weight": 1
+            },
+            {
+                "Answer_4": "At least once a month",
+                "Weight_4": 2
+            },
+            {
+                "Answer": "At least once a week",
+                "Weight": 5
+            },
+            {
+                "Answer": "Don't know",
+                "Weight": 0.45
+            }
+        ]
+    }
+]

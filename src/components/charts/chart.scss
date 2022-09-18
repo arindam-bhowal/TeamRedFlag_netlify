@@ -1,0 +1,44 @@
+.charts{
+    width: calc(100% - 100px);
+    height: 100vh;
+    margin-left: 100px;
+    background-color: #30303A;
+
+    .heading{
+        text-align: center;
+        color: #F0B015;
+        padding: 20px;
+        p{
+            padding: 20px;
+            color: white;
+        }
+    }
+
+    .checkbox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        color: white;
+    }
+
+    .boxes{
+        color: white;
+    }
+    .select{
+        color:  white;
+        margin-top: 40px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        // width: 20%;
+    }
+
+    .graph{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
