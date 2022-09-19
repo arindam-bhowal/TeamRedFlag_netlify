@@ -13,11 +13,12 @@ import SearchPanel from '../searchPanel/SearchPanel'
 import geoShpFile from '../../Data/shapeFile.geojson'
 import Legend from '../legend/Legend';
 
-const MAPBOX_TOKEN = 'pk.eyJ1IjoiYXJpbmRhbWJob3dhbCIsImEiOiJjbDg0ZTZucmMwZXU2M3VxdWZvNGU4NnR2In0.cSCAnKE08m-Ime8ecTSbnQ'; // Set your mapbox token here
+const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN
 
 
 
 export default function BaseMap() {
+  
 
   const [timePeriod, setTimePeriod] = useState('Hist');
   const [rcpSenerios, setRcpSenerios] = useState('rcp 4.5')

@@ -79,7 +79,7 @@ const Emission = () => {
           </div>
           <div class="suggestions">
             <ul class="suggestions__list">
-              <li>Enter Coordinate of Your Home (comma separated value without space)</li>
+              <li>Enter Coordinate of Your Work (comma separated value without space)</li>
               <li>Eg- 47.41123,8.56428 </li>
             </ul>
           </div>
