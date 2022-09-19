@@ -1,11 +1,7 @@
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './baseMap.scss'
-import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
-import Map, { Marker, NavigationControl, Source, Layer, useControl } from 'react-map-gl';
-import { MarkerDragEvent, LngLat } from 'react-map-gl';
-import mapboxgl from "mapbox-gl"
-
-import { dataLayer, updatePercentiles } from '../utils/Utils';
+import { useState, useCallback, useRef } from 'react';
+import Map, { Marker, NavigationControl, Source, Layer } from 'react-map-gl';
 import Pin from '../pin/Pin'
 import ControlPanel from '../controlPanel/ControlPanel';
 import SearchPanel from '../searchPanel/SearchPanel'
@@ -110,18 +106,6 @@ export default function BaseMap() {
       rcp85_near_future: "mapbox://styles/arindambhowal/cl86fgzya00gg14pmj88k7bx0",
       rcp85_mid_future: "mapbox://styles/arindambhowal/cl86fegao001315qvl54tq9hp",
       rcp85_far_future: "mapbox://styles/arindambhowal/cl86fbi6x001114nm5ckkjbj8"
-    },
-    tropicalNightsStyles: {
-      current: "",
-      rcp45_near_future: "",
-      rcp45_mid_future: "",
-      rcf45_far_future: "",
-      rcp26_near_future: "",
-      rcp26_mid_future: "",
-      rcp26_far_future: "",
-      rcp85_near_future: "",
-      rcp85_mid_future: "",
-      rcp85_far_future: ""
     },
     baseStyle: "mapbox://styles/mapbox/streets-v11"
   }

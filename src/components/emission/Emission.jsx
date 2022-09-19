@@ -31,7 +31,6 @@ const Emission = () => {
   }
 
   const handleCalculate = () => {
-    const result = 0;
     response.map(res => {
       console.log(res.distance)
     })
@@ -55,30 +54,30 @@ const Emission = () => {
 
 <h2>Climate Impact of your private car</h2>
 
-        <form class="search-form">
-          <div class="input-container">
-            <input type="text" class="search" placeholder="Home City or State" value={homeLocation} onChange={handleHomeChange} />
-            <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-              <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+        <form className="search-form">
+          <div className="input-container">
+            <input type="text" className="search" placeholder="Home City or State" value={homeLocation} onChange={handleHomeChange} />
+            <svg className="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+              <circle className="path" fill="none" strokeWidth="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
             </svg>
           </div>
-          <div class="suggestions">
-            <ul class="suggestions__list">
+          <div className="suggestions">
+            <ul className="suggestions__list">
               <li>Enter Coordinate of Your Home (comma separated value without space)</li>
               <li>Eg:- 47.39062,8.51573 -Zurich</li>
             </ul>
           </div>
         </form>
 
-        <form class="search-form">
-          <div class="input-container">
-            <input type="text" class="search" placeholder="Work City or State" value={workLocation} onChange={handleWorkChange} />
-            <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-              <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+        <form className="search-form">
+          <div className="input-container">
+            <input type="text" className="search" placeholder="Work City or State" value={workLocation} onChange={handleWorkChange} />
+            <svg className="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+              <circle className="path" fill="none" strokeWidth="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
             </svg>
           </div>
-          <div class="suggestions">
-            <ul class="suggestions__list">
+          <div className="suggestions">
+            <ul className="suggestions__list">
               <li>Enter Coordinate of Your Work (comma separated value without space)</li>
               <li>Eg- 47.41123,8.56428 </li>
             </ul>

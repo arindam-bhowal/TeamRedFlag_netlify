@@ -57,63 +57,52 @@ const Quiz = () => {
 
     const shuffle = (arr) => arr.sort(() => Math.random() - 0.5);
 
-    const pickAnswer = ( e) => {
+    const pickAnswer = (e) => {
 
         let userAnswer = e.target.outerText;
 
         const Weight = quizes[number].Answers.filter(a => a.Answer === userAnswer)[0].Weight
-        // if (quiz[number].Answer === userAnswer) 
-        // console.log(Weight)
         setPts(pts + Weight);
         setNumber(number + 1);
     }
 
     useEffect(() => {
-
-        console.log(quizes)
-
         setQuiz(quizes.map(item => (
 
             {
                 question: item.Question,
-                options: shuffle(item.Answers.map(a =>{
+                options: shuffle(item.Answers.map(a => {
                     return a.Answer
                 }))
                 // options: shuffle([...item.incorrect_answers, item.correct_answer]),
             })))
-
-                
-
     }, []);
 
 
     return (
 
         <>
-        <Sidebar />
-        <QuizWindow>
-            { (quiz[number]) &&
+            <Sidebar />
+            <QuizWindow>
+                {(quiz[number]) &&
 
-                <>
+                    <>
 
-                { number<5 ? <>
-                    <Question dangerouslySetInnerHTML={{ __html: quiz[number].question }}></Question>
+                        {number < 5 ? <>
+                            <Question dangerouslySetInnerHTML={{ __html: quiz[number].question }}></Question>
 
-                    <Options>
-                        {quiz[number].options.map((item, index) => (
-                            <Option key={index} dangerouslySetInnerHTML={{ __html: item }} onClick={pickAnswer}></Option>
-                        ))}
-                    </Options>
-                
-                </> : number === 5 && <GameOver pts={pts} />}
+                            <Options>
+                                {quiz[number].options.map((item, index) => (
+                                    <Option key={index} dangerouslySetInnerHTML={{ __html: item }} onClick={pickAnswer}></Option>
+                                ))}
+                            </Options>
 
-                </>
+                        </> : number === 5 && <GameOver pts={pts} />}
 
-            }
-            {/* {
-                (number === 5 && <GameOver pts={pts} />)
-            } */}
-        </QuizWindow>
+                    </>
+
+                }
+            </QuizWindow>
         </>
     )
 }

@@ -1,18 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Sidebar from '../sidebar/Sidebar'
 import './chart.scss'
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
-import FormLabel from '@mui/material/FormLabel';
 import {
     LineChart,
     Line,
     XAxis,
     YAxis,
-    CartesianGrid,
     Tooltip,
     Legend
 } from "recharts";
